@@ -170,6 +170,7 @@ color: white;
 }
 /* brain img */
 .brain-img{
+    border-radius: 12px;
     max-width: 600px;
 }
 /* brain content */
@@ -180,7 +181,9 @@ color: white;
     margin-bottom: 16px;
     color: #30B868;
 }
-
+.brain-section{
+    margin-bottom: 120px;
+}
 .brain-content h2 {
     font-size: 48px;
     font-weight: bold;
@@ -188,11 +191,16 @@ color: white;
     margin-bottom: 16px;
 }
 .brain-content .brain-p{
-    text-align: justify;
+    text-align: left;
     font-size: 16px;
     line-height: 20px;
     color: #627382;
     margin-bottom: 40px;
+}
+.bulate-point p{
+    display: flex;
+    align-items: center;
+    gap: 6px;
 }
 .bulate-point p{
     font-size: 16px;
@@ -200,4 +208,17 @@ color: white;
     line-height: 20px;
     margin-bottom: 16px;
     color: #001931;
+}
+/* Task */
+#task{
+    margin-bottom: 120px;
+}
+.main-task{
+    border-radius: 12px;
+    padding: 80px 40px;
+    background-color: #F7F6F2;
+}
+
+.btn-1{
+    margin-bottom: 16px;
 }
