@@ -27,6 +27,10 @@ body{
 #menu li {
     list-style-type: none;
 }
+#menu li a:hover{
+    color: #30B868;
+    transition: 0.5s;
+}
 #menu li a{
     text-decoration: none;
     font-size: 16xp;
@@ -34,6 +38,11 @@ body{
     color: black ;
 }
 /* common style */
+.container{
+    width: 85%;
+    max-width: 1360px;
+    margin: 0 auto;
+}
 .btn{
     padding: 12px 16px;
     border-style: none;
@@ -49,7 +58,7 @@ body{
     border: 1px solid white;
     background-color:rgba(0, 0, 0, 0);
     color: white;
-    margin-left: 8px;
+    margin-left: 10px;
     font-size: 16px;
     font-weight: 600;
     border-radius: 4px;
@@ -97,4 +106,98 @@ color: white;
 }
 .title-color{
     color: #30B868;
+}
+/* Nots section */
+
+.heading-title{
+    margin-top: 50px;
+    text-align: center;
+    margin-bottom: 120px;
+}
+
+.heading-title h2{
+    font-size: 48px;
+    font-weight: bold;
+    margin-bottom: 16px;
+    color: #001931;
+}
+.heading-title p {
+    font-size: 16px;
+    line-height: 20px;
+    color: #627382;
+    margin-bottom: 40px;
+}
+/* Card section */
+#card-box{
+    display: flex;
+    gap: 24px;
+    
+}
+.card{
+    text-align: center;
+    max-width: 322px;
+    padding: 24px;
+    border-radius: 8px;
+    background-color: #FFFFFF;
+    box-shadow: 0 0 8px 0  #0000060c;
+}
+.card img{
+    padding: 10px;
+    margin-bottom: 16px;
+    border-radius:50% ;
+    background-color: #F95555;
+}
+.card h4{
+    font-size: 24px;
+    margin-bottom: 16px;
+    font-weight: 600;
+    color: #001931;
+}
+.card p{
+    font-size: 16px;
+    line-height: 20px;
+    color: #627382;
+}
+/* Brain section */
+/* #brain{
+    padding: 120px;
+    background-color: #FFFFFF;
+} */
+.brain-section{
+    display: flex;
+    gap: 60px;
+    align-items: center;
+}
+/* brain img */
+.brain-img{
+    max-width: 600px;
+}
+/* brain content */
+.title{
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 20px;
+    margin-bottom: 16px;
+    color: #30B868;
+}
+
+.brain-content h2 {
+    font-size: 48px;
+    font-weight: bold;
+    color: #001931;
+    margin-bottom: 16px;
+}
+.brain-content .brain-p{
+    text-align: justify;
+    font-size: 16px;
+    line-height: 20px;
+    color: #627382;
+    margin-bottom: 40px;
+}
+.bulate-point p{
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 20px;
+    margin-bottom: 16px;
+    color: #001931;
 }
