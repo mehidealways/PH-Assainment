@@ -222,3 +222,30 @@ color: white;
 .btn-1{
     margin-bottom: 16px;
 }
+/* Footer section */
+#footer{
+    padding: 120px 120px 30px 120px;
+    background-color: #001931;
+}
+.footer-content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 80px;
+}
+.footer-social p {
+    font-size: 20PX;
+    font-weight: 500;
+    margin-bottom: 16px;
+    color: white;
+}
+.footer-social a, img{
+    margin-left: 6px;
+}
+.copy p{
+    text-align: center;
+    font-size: 16px;
+    line-height: 20px;
+    color: #FAFAFA;
+    margin-top: 30px;
+}
