@@ -242,6 +242,9 @@ color: white;
 .footer-social a, img{
     margin-left: 6px;
 }
+.copy{
+    border-top: 1px solid #dddddd53;
+}
 .copy p{
     text-align: center;
     font-size: 16px;
