@@ -242,8 +242,8 @@ color: white;
 .footer-social a, img{
     margin-left: 6px;
 }
-.copy{
-    border-top: 1px solid #dddddd53;
+.hr-line{
+    border: 1px solid #dddddd47;
 }
 .copy p{
     text-align: center;
