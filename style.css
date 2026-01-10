@@ -68,6 +68,7 @@ body{
 .hero-body{
     background-image: url(assets/hero-bg.png);
     background-size: cover;
+    background-repeat: no-repeat;
     padding: 70px 120px 134px 120px;
 }
 /* hero btn style */
@@ -159,11 +160,7 @@ color: white;
     line-height: 20px;
     color: #627382;
 }
-/* Brain section */
-/* #brain{
-    padding: 120px;
-    background-color: #FFFFFF;
-} */
+
 .brain-section{
     display: flex;
     gap: 60px;
