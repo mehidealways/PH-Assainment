@@ -67,6 +67,7 @@ body{
 /* main style */
 .hero-body{
     background-image: url(assets/hero-bg.png);
+    background-size: cover;
     padding: 70px 120px 134px 120px;
 }
 /* hero btn style */
